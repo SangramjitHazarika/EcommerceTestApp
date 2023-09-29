@@ -1,6 +1,6 @@
 # EcommerceTestApp
 
-Sample project to automate an e-commerce app using selenium and java with TestNG
+Sample project to automate an e-commerce app using Selenium and Java with TestNG
 
 #### Myntra App
 
