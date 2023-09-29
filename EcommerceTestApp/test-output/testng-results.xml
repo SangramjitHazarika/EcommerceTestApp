@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-29T12:50:33Z" name="Default suite" finished-at="2023-09-29T12:51:12Z" duration-ms="39049">
+    <groups>
+    </groups>
+    <test started-at="2023-09-29T12:50:33Z" name="Default test" finished-at="2023-09-29T12:51:12Z" duration-ms="39049">
+      <class name="tests.ShirtPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.ShirtPageTest@691a7f8f]" started-at="2023-09-29T18:20:33Z" name="setup" finished-at="2023-09-29T18:20:39Z" duration-ms="5686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="sampleTest()[pri:0, instance:tests.ShirtPageTest@691a7f8f]" started-at="2023-09-29T18:20:39Z" name="sampleTest" finished-at="2023-09-29T18:20:39Z" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sampleTest -->
+        <test-method signature="testOne()[pri:0, instance:tests.ShirtPageTest@691a7f8f]" started-at="2023-09-29T18:20:39Z" name="testOne" finished-at="2023-09-29T18:20:44Z" duration-ms="4790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOne -->
+        <test-method signature="testTwo()[pri:0, instance:tests.ShirtPageTest@691a7f8f]" started-at="2023-09-29T18:20:44Z" name="testTwo" finished-at="2023-09-29T18:21:12Z" duration-ms="28563" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTwo -->
+        <test-method is-config="true" signature="closeDown()[pri:0, instance:tests.ShirtPageTest@691a7f8f]" started-at="2023-09-29T18:21:17Z" name="closeDown" finished-at="2023-09-29T18:21:17Z" duration-ms="0" status="FAIL">
+          <exception class="org.openqa.selenium.UnsupportedCommandException">
+            <message>
+              <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b25b9fea-ae94-418d-9ddf-d9fe52d6fd69, close {}]
+Capabilities {appium:app: /Users/d2c-sangramjit.h/Dow..., appium:appActivity: com.myntra.android.activiti..., appium:appPackage: com.myntra.android, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/d2c-sangramjit.h/Dow..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: UIAutomator2, deviceName: Nexus S, platformName: ANDROID, platformVersion: 12}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b25b9fea-ae94-418d-9ddf-d9fe52d6fd69]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
+Build info: version: '4.12.1', revision: '8e34639b11'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.5.1', java.version: '17.0.8'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [b25b9fea-ae94-418d-9ddf-d9fe52d6fd69, close {}]
+Capabilities {appium:app: /Users/d2c-sangramjit.h/Dow..., appium:appActivity: com.myntra.android.activiti..., appium:appPackage: com.myntra.android, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {app: /Users/d2c-sangramjit.h/Dow..., appActivity: com.myntra.android.activiti..., appPackage: com.myntra.android, automationName: UIAutomator2, deviceName: Nexus S, platformName: ANDROID, platformVersion: 12}, appium:deviceApiLevel: 31, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_arm64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x1920, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 12, appium:statBarHeight: 72, appium:takesScreenshot: true, appium:viewportRect: {height: 1704, left: 0, top: 72, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: b25b9fea-ae94-418d-9ddf-d9fe52d6fd69
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:262)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:675)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:272)
+	at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:409)
+	at tests.BaseClass.closeDown(BaseClass.java:50)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:236)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:81)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.UnsupportedCommandException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDown -->
+      </class> <!-- tests.ShirtPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
